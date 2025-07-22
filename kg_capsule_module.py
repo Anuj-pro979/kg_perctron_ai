@@ -275,7 +275,8 @@ class KGCapsuleTransformer(nn.Module):
             
             # Connect to similar existing nodes
             if self.current_nodes > 0:
-                active_knowledge = self.knowledge_embeddings[self.node_active[:self.current_nodes]]
+                active_knowledge = self.knowledge_embeddings[self.node_active]
+
                 similarities = F.cosine_similarity(embedding.unsqueeze(0), active_knowledge, dim=-1)
                 
                 # Connect to most similar nodes above threshold
