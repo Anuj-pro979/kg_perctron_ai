@@ -8,7 +8,7 @@ Neuron 3 ────┤    get these responses
 Neuron N ────┘
 ```
 
-## 🌐 **Your Knowledge Graph Nodes:**
+## 🌐 **my Knowledge Graph Nodes:**
 ```
 Knowledge Node 1 ────┐
 Knowledge Node 2 ────┤──→ Neural layer receives
@@ -24,7 +24,7 @@ Knowledge Node K ────┘    when activated
 - Next layer neurons receive weighted combination of all inputs
 - Can be modified through backpropagation
 
-### **Your Knowledge Nodes:**
+### **this Knowledge Nodes:**
 - Each knowledge node has vector data (like neuron activation)
 - When "activated" (selected by attention), sends vector to neural layer
 - Neural layer receives weighted combination of selected knowledge vectors
